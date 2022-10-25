@@ -11,7 +11,7 @@ export const categoriesReducer = (
   const { type, playload } = action;
 
   switch (type) {
-    case CATEGORIES_ACTION_TYPES.SET_CATEGORIEES_MAP:
+    case CATEGORIES_ACTION_TYPES.SET_CATEGORIES_MAP:
       return { ...state, categoriesMap: playload };
     default:
       return state;
